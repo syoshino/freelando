@@ -1,12 +1,14 @@
-import {Estilos} from "./componentes/EstilosGlobais/Estilos"
+import {Card} from "./componentes/Card/Card";
+import {Estilos} from "./componentes/EstilosGlobais/Estilos";
+
 function App() {
   return (
-    <>
-      <div>
-        <Estilos/>
+     <div>
+      <Estilos />        
+      <Card>
         <h1>Freelando</h1>
-      </div>
-    </>
+      </Card>
+      </div> 
   );
 }
 
